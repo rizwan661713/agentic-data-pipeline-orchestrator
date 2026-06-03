@@ -129,6 +129,40 @@ AI Agent Failure Summary
 Send Notification
 ```
 
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rizwan661713/agentic-data-pipeline-orchestrator.git
+cd agentic-data-pipeline-orchestrator
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the sample pipeline failure analysis:
+
+```bash
+python src/agent.py
+```
+
+Run the failure classifier:
+
+```bash
+python src/failure_classifier.py
+```
+
+Run the notification builder:
+
+```bash
+python src/notification_builder.py
+```
+
+
 ## Technologies Used
 
 - Python
