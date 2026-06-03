@@ -1,0 +1,22 @@
+{
+  "run_metadata": {
+    "pipeline_run_id": "run_20260602_001",
+    "pipeline_name": "customer_activity_daily_load",
+    "environment": "production",
+    "status": "failed",
+    "failed_task_name": "validate_schema",
+    "error_message": "Missing column customer_id in source file",
+    "retry_count": 1,
+    "triggered_by": "scheduled_job"
+  },
+  "data_quality_results": [],
+  "dependency_map": [
+    {
+      "pipeline_name": "customer_activity_daily_load",
+      "task_name": "gold_customer_activity_summary",
+      "downstream_report": "Executive Activity Dashboard",
+      "business_owner": "Analytics Team"
+    }
+  ]
+}
+
